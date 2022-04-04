@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #1f2937;
+    color: white;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+
+    /* Secondary text */
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8
+}
