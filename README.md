@@ -14,3 +14,9 @@ Task 2: Apply CSS based on provided styles or get creative.
 Task 3: Review webpage and make sure everything looks good.
 Task 4: Push and submit project. 
 
+Free image resources: 
+https://unsplash.com/
+https://pixabay.com/
+https://www.pexels.com/
+
+Sources: https://pixabay.com/photos/new-york-manhattan-usa-skyscrapers-6578473/

@@ -1,15 +1,18 @@
 body{
     display: flex;
     flex-direction: column;
+    /* Stretch everything across the webpage */
+    margin: 0;
 }
 
+
+/* Header Section */
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     background-color: #1f2937;
-    color: white;
 }
 
 .header ul{
@@ -22,8 +25,51 @@ body{
     color: #e5e7eb
 }
 
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
 .logo{
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8
+}
+/* Section 1 */
+.main-section{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.main-info{
+    color:#f9faf8;
+    width: 500px;
+}
+
+.main-info h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+button{
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 10px;
+    width: 115px;
+    height: 24px;
+    border-style:none;
+}
+img{
+    width: 600px;
+    height: 200px;
+}
+/* Footer Section */
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+    text-align: center;
 }
