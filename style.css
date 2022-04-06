@@ -119,6 +119,32 @@ button{
     
 }
 /* Section 4 */
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-card{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    font-weight: bolder;
+}
+.call-card button{
+    border: white 2px solid;
+    width: 150px;
+    height: 30px;
+}
 /* Footer Section */
 .footer{
     background-color: #1f2937;
