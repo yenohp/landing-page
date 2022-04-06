@@ -1,10 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
     /* Stretch everything across the webpage */
     margin: 0;
 }
-
 
 /* Header Section */
 .header{
@@ -29,11 +29,14 @@ a{
     text-decoration: none;
     color: #e5e7eb;
 }
+
 .logo{
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8
 }
+
+
 /* Section 1 */
 .main-section{
     background-color: #1f2937;
@@ -58,13 +61,59 @@ button{
     color:#e5e7eb;
     border-radius: 10px;
     width: 115px;
-    height: 24px;
+    height: 38px;
     border-style:none;
 }
-img{
-    width: 600px;
+
+.main-img{
+    background-color:#808080e7;
+    text-align: center;
+    color: #f9faf8;
+    max-width: 33%;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
 }
+
+/* Section 2 */
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.information h2{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cards p{
+    font-size: 18px;
+    color: #8a8a8a;
+}
+.card{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-thumb{
+    border: #3882f6 5px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Section 3 */
+
+/* Section 4 */
 /* Footer Section */
 
 .footer{
