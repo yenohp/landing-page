@@ -14,7 +14,6 @@ body{
 
     background-color: #1f2937;
 }
-
 .header ul{
     display: flex;
     list-style: none;
@@ -24,19 +23,15 @@ body{
     font-size: 18px;
     color: #e5e7eb
 }
-
 a{
     text-decoration: none;
     color: #e5e7eb;
 }
-
 .logo{
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8
 }
-
-
 /* Section 1 */
 .main-section{
     background-color: #1f2937;
@@ -45,17 +40,14 @@ a{
     justify-content: space-around;
     padding: 40px;
 }
-
 .main-info{
     color:#f9faf8;
     width: 500px;
 }
-
 .main-info h2{
     font-size: 48px;
     font-weight: bold;
 }
-
 button{
     background-color: #3882f6;
     color:#e5e7eb;
@@ -64,7 +56,6 @@ button{
     height: 38px;
     border-style:none;
 }
-
 .main-img{
     background-color:#808080e7;
     text-align: center;
@@ -76,7 +67,6 @@ button{
     align-items: center;
     flex: 1 1 0;
 }
-
 /* Section 2 */
 .information{
     display: flex;
@@ -84,12 +74,10 @@ button{
     align-items: center;
     text-align: center;
 }
-
 .information h2{
     font-size: 36px;
     color: #1f2937;
 }
-
 .cards{
     display: flex;
     flex-wrap: nowrap;
@@ -110,12 +98,28 @@ button{
     height: 150px;
     border-radius: 10px;
 }
-
 /* Section 3 */
-
+.quote-section{
+    background-color: #e5e7eb;
+    
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color:#1f2937;
+    text-align: left;
+    padding: 50px 200px 0 200px;
+}
+.person{
+    font-weight: bolder;
+    font-size: 26px;
+    text-align: center;
+    padding: 0 20px 20px 0;
+    
+}
 /* Section 4 */
 /* Footer Section */
-
 .footer{
     background-color: #1f2937;
     color: #e5e7eb;
